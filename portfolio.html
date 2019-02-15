@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="images/Will-Abbot.jpg" />
+</head>
+
+<body>
+    <!-- Navbar: designed to maintain layout until small screens, when it will stack About, Portfolio, and Contact vertically -->
+    <div class="container-fluid border-bottom border-info">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a class="navbar-brand bg-info p-3 text-white">
+                    <h3>Will Abbot</h3>
+                </a>
+                <div class="navbar ml-auto" id="navbarToggleExternalContent">
+                    <div class="navbar-nav ml-auto">
+
+                        <a class="nav-item nav-link active text-secondary btn" data-toggle="button" href="index.html">About<span
+                                class="sr-only">(current)</span></a>
+
+                        <a class="nav-item nav-link active text-secondary btn" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link active text-secondary btn" href="contact.html">Contact</a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- body: I created .png files with images and banners combined, all these images are held within a single row inside a fluid container. I found this to be easiest formatting for responsive behavior-->
+    <div class="w-100 vh-100 position-absolute bg-light">
+        <div class="container bg-white m-3 mx-auto border border-info position-relative">
+            <br>
+            <div class="p-3 border-bottom border-info">
+                <h3 class="text-info">Portfolio</h3>
+            </div>
+
+            <div class="container-fluid p-3">
+                <div class="row">
+                    <div class="col p-3">
+                        <img class="photo" src="images/Photography.png" alt="Photography" style="width:300px; height:300px;">
+                    </div>
+                    <div class="col p-3">
+                        <img class="photo" src="images/Videography.png" alt="Photography" style="width:300px; height:300px;">
+                    </div>
+                    <div class="col p-3">
+                        <img class="photo" src="images/GitHub.png" alt="Photography" style="width:300px; height:300px;">
+                    </div>
+                    <div class="col p-3">
+                        <img class="photo" src="images/Web Development.png" alt="Photography" style="width:300px; height:300px;">
+                    </div>
+                    <div class="col p-3">
+                        <img class="photo" src="images/Media-Marketing.png" alt="Photography" style="width:300px; height:300px;">
+                    </div>
+                    <div class="col p-3">
+                        <img class="photo" src="images/World Domination.png" alt="Photography" style="width:300px; height:300px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- maintains bottom spacing in all orientations -->
+        <br><br>
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="m-3">
+        <div class="fixed-bottom text-center bg-secondary border-top border-info p-3 text-white">
+            Copyright &copy;
+        </div>
+    </div>
+
+</body>
+
+</html>
